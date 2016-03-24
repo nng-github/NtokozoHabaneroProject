@@ -1,0 +1,10 @@
+F:\Systems\NtokozoHabanero\NtokozoHabanero.DB.Migrations\bin\Debug\NtokozoHabanero.DB.Migrations.dll
+F:\Systems\NtokozoHabanero\NtokozoHabanero.DB.Migrations\bin\Debug\NtokozoHabanero.DB.Migrations.pdb
+F:\Systems\NtokozoHabanero\NtokozoHabanero.DB.Migrations\bin\Debug\FluentMigrator.dll
+F:\Systems\NtokozoHabanero\NtokozoHabanero.DB.Migrations\bin\Debug\FluentMigrator.Runner.dll
+F:\Systems\NtokozoHabanero\NtokozoHabanero.DB.Migrations\bin\Debug\PeanutButter.FluentMigrator.dll
+F:\Systems\NtokozoHabanero\NtokozoHabanero.DB.Migrations\bin\Debug\FluentMigrator.pdb
+F:\Systems\NtokozoHabanero\NtokozoHabanero.DB.Migrations\bin\Debug\FluentMigrator.xml
+F:\Systems\NtokozoHabanero\NtokozoHabanero.DB.Migrations\bin\Debug\FluentMigrator.Runner.pdb
+F:\Systems\NtokozoHabanero\NtokozoHabanero.DB.Migrations\obj\Debug\NtokozoHabanero.DB.Migrations.dll
+F:\Systems\NtokozoHabanero\NtokozoHabanero.DB.Migrations\obj\Debug\NtokozoHabanero.DB.Migrations.pdb

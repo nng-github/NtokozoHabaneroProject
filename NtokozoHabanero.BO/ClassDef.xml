@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<classes>
+  <class name="Ntokozo" assembly="Ntokozo.BO">
+    <property name="NtokozoId" type="Guid"/>
+    <property name="Gender"/>
+    <property name="DateOfBirth" />
+    <property name="HomeTown" />
+    <property name="Education" />
+    <primaryKey>
+      <prop name="NtokozoId"/>
+    </primaryKey>
+  </class>
+
+  <class name="NtokozoViewModel" assembly="Ntokozo.BO">
+    <property name="NtokozoId" type="Guid" />
+    <property name="Gender" />
+    <property name="DateOfBirth" />
+    <property name="HomeTown" />
+    <property name="Education" />
+    <primaryKey>
+      <property name="NtokozoId" />
+    </primaryKey>
+  </class>
+ 
+</classes>

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NtokozoHabanero.Web", "NtokozoHabanero.Web\NtokozoHabanero.Web.csproj", "{AEB75B8D-A729-46D7-AC96-CBF2B0DD8DF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NtokozoHabanero.DB", "NtokozoHabanero.DB\NtokozoHabanero.DB.csproj", "{21921DA7-8028-4E53-9239-227777511C00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NtokozoHabanero.DB.Migrations", "NtokozoHabanero.DB.Migrations\NtokozoHabanero.DB.Migrations.csproj", "{23DA78F9-1F4B-48A8-BDE7-D7F93BFCCE57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NtokozoHabanero.BO", "NtokozoHabanero.BO\NtokozoHabanero.BO.csproj", "{F85B6701-3CFC-4BE2-8D5A-11EE60FAC1EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NtokozoHabanero.Tests.Common", "NtokozoHabanero.Tests.Common\NtokozoHabanero.Tests.Common.csproj", "{A14A6A37-1C03-4196-842C-DBF4B49475D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotkozoHabanero.DB.Tests", "NotkozoHabanero.DB.Tests\NotkozoHabanero.DB.Tests.csproj", "{AFA85F49-4247-4B5A-938C-E11967B0A42F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEB75B8D-A729-46D7-AC96-CBF2B0DD8DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB75B8D-A729-46D7-AC96-CBF2B0DD8DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB75B8D-A729-46D7-AC96-CBF2B0DD8DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB75B8D-A729-46D7-AC96-CBF2B0DD8DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21921DA7-8028-4E53-9239-227777511C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21921DA7-8028-4E53-9239-227777511C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21921DA7-8028-4E53-9239-227777511C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21921DA7-8028-4E53-9239-227777511C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23DA78F9-1F4B-48A8-BDE7-D7F93BFCCE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23DA78F9-1F4B-48A8-BDE7-D7F93BFCCE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23DA78F9-1F4B-48A8-BDE7-D7F93BFCCE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23DA78F9-1F4B-48A8-BDE7-D7F93BFCCE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85B6701-3CFC-4BE2-8D5A-11EE60FAC1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85B6701-3CFC-4BE2-8D5A-11EE60FAC1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85B6701-3CFC-4BE2-8D5A-11EE60FAC1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85B6701-3CFC-4BE2-8D5A-11EE60FAC1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14A6A37-1C03-4196-842C-DBF4B49475D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14A6A37-1C03-4196-842C-DBF4B49475D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14A6A37-1C03-4196-842C-DBF4B49475D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14A6A37-1C03-4196-842C-DBF4B49475D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA85F49-4247-4B5A-938C-E11967B0A42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA85F49-4247-4B5A-938C-E11967B0A42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA85F49-4247-4B5A-938C-E11967B0A42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA85F49-4247-4B5A-938C-E11967B0A42F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

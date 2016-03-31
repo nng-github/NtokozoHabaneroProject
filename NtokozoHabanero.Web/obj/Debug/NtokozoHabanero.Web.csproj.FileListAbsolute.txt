@@ -14,6 +14,8 @@ F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\NtokozoHabanero.Web.dll.confi
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\NtokozoHabanero.Web.dll
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\NtokozoHabanero.Web.pdb
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\Antlr3.Runtime.dll
+F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\Castle.Core.dll
+F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\Castle.Windsor.dll
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\EntityFramework.dll
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\EntityFramework.SqlServer.dll
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\FluentMigrator.dll
@@ -34,6 +36,7 @@ F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\Microsoft.Owin.Security.Twitt
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\Microsoft.Web.Infrastructure.dll
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\Newtonsoft.Json.dll
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\NtokozoHabanero.BO.dll
+F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\NtokozoHabanero.DB.dll
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\NtokozoHabanero.DB.Migrations.dll
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\Owin.dll
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\PeanutButter.FluentMigrator.dll
@@ -47,6 +50,9 @@ F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\System.Web.WebPages.Razor.dll
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\WebGrease.dll
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\NtokozoHabanero.BO.pdb
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\NtokozoHabanero.DB.Migrations.pdb
+F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\NtokozoHabanero.DB.pdb
+F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\Castle.Core.xml
+F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\Castle.Windsor.xml
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\FluentMigrator.pdb
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\FluentMigrator.xml
 F:\Systems\NtokozoHabanero\NtokozoHabanero.Web\bin\FluentMigrator.Runner.pdb

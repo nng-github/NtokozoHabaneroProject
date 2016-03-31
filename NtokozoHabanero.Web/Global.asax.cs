@@ -8,6 +8,7 @@ using Habanero.Console;
 using Habanero.DB;
 using NtokozoHabanero.BO;
 using NtokozoHabanero.Migrations;
+using NtokozoHabanero.Web.Bootstrap;
 using BORegistry = Habanero.BO.BORegistry;
 
 namespace NtokozoHabanero.Web
@@ -20,6 +21,7 @@ namespace NtokozoHabanero.Web
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            IocContainer.Setup();
 
             GlobalRegistry.ApplicationName = "NtokozoHabanero";
             GlobalRegistry.ApplicationVersion = "1.32.05 - 2016.03.24";

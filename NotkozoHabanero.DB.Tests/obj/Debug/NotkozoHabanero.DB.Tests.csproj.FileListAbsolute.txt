@@ -1,0 +1,5 @@
+F:\Systems\NtokozoHabanero\NotkozoHabanero.DB.Tests\bin\Debug\NotkozoHabanero.DB.Tests.dll
+F:\Systems\NtokozoHabanero\NotkozoHabanero.DB.Tests\bin\Debug\NotkozoHabanero.DB.Tests.pdb
+F:\Systems\NtokozoHabanero\NotkozoHabanero.DB.Tests\obj\Debug\NotkozoHabanero.DB.Tests.csprojResolveAssemblyReference.cache
+F:\Systems\NtokozoHabanero\NotkozoHabanero.DB.Tests\obj\Debug\NotkozoHabanero.DB.Tests.dll
+F:\Systems\NtokozoHabanero\NotkozoHabanero.DB.Tests\obj\Debug\NotkozoHabanero.DB.Tests.pdb

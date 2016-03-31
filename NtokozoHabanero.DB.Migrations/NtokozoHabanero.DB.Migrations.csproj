@@ -74,8 +74,9 @@
   <ItemGroup>
     <Compile Include="DatabaseMigrator.cs" />
     <Compile Include="MigrationRunner.cs" />
-    <Compile Include="Migrations\_201603241503_CreateTableNtokozo.cs" />
+    <Compile Include="Migrations\_201603241503_CreateTablePerson.cs" />
     <Compile Include="Migrator.cs" />
+    <Compile Include="NtokozoVersionUpgrader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

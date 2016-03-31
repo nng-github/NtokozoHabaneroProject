@@ -2,3 +2,4 @@ F:\Systems\NtokozoHabanero\NtokozoHabanero.BO\bin\Debug\NtokozoHabanero.BO.dll
 F:\Systems\NtokozoHabanero\NtokozoHabanero.BO\bin\Debug\NtokozoHabanero.BO.pdb
 F:\Systems\NtokozoHabanero\NtokozoHabanero.BO\obj\Debug\NtokozoHabanero.BO.dll
 F:\Systems\NtokozoHabanero\NtokozoHabanero.BO\obj\Debug\NtokozoHabanero.BO.pdb
+F:\Systems\NtokozoHabanero\NtokozoHabanero.BO\obj\Debug\NtokozoHabanero.BO.csprojResolveAssemblyReference.cache

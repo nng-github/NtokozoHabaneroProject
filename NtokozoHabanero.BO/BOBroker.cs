@@ -11,8 +11,10 @@ namespace NtokozoHabanero.BO
         {
             var loadClassDefs = new ClassDefCol();
             AllClassesAutoMapper.ClassDefCol = loadClassDefs;
-            var allClassesAutoMapper = new AllClassesAutoMapper(new AssemblyTypeSource(typeof(Ntokozo).Assembly));
+            var allClassesAutoMapper = new AllClassesAutoMapper(new AssemblyTypeSource(typeof(Person).Assembly));
+            //var allClasses= new AllClassesAutoMapper(new AssemblyTypeSource(typeof(PersonViewModel).Assembly));
             allClassesAutoMapper.Map();
+            //allClasses.Map();
             return loadClassDefs;
         }
         public static void LoadClassDefs()

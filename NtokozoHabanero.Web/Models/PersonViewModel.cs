@@ -1,5 +1,4 @@
 ﻿using System;
-using Habanero.BO;
 
 namespace NtokozoHabanero.Web.Models
 {

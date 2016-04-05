@@ -5,7 +5,6 @@ using Habanero.Base;
 using Habanero.BO;
 using Habanero.DB;
 using LendingLibrary.Habanero.BO;
-using LendingLibrary.Habanero.DB.Migrations;
 using LendingLibrary.Habanero.Web.Bootstrap.QuotePro.Bootstrap;
 using BORegistry = Habanero.BO.BORegistry;
 
@@ -66,14 +65,12 @@ namespace LendingLibrary.Habanero.DB.Tests
         {
             return Environment.GetEnvironmentVariable("SQLSERVER_INTEGRATION_TESTING_PASSWORD") ?? "sa";
         }
-
-
+        
         public static IDatabaseConnection GetDatabaseConnection()
         {
             SetupDbConnection();
             return DatabaseConnection.CurrentConnection;
         }
-
     }
     public static class TestWindsorExtensions
     {

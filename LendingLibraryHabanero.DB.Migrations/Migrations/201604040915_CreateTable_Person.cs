@@ -2,8 +2,8 @@
 
 namespace LendingLibrary.Habanero.DB.Migrations.Migrations
 {
-    [Migration(201603290855)]
-    public class _201603301539_CreateTablePerson : Migration
+    [Migration(201604040915)]
+    public class _201604040915_CreateTable_Person : Migration
     {
         public override void Up()
         {
@@ -17,6 +17,8 @@ namespace LendingLibrary.Habanero.DB.Migrations.Migrations
         }
 
         public override void Down()
-        {}
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

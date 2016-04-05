@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<!--<?xml version="1.0" encoding="utf-8" ?>
 <classes>
   <class name="Person" assembly="Person.BO">
     <property name="PersonId" type="Guid"/>
@@ -7,10 +7,37 @@
     <property name="DateOfBirth" />
     <property name="HomeTown" />
     <property name="Education" />
+    <property name="Lending" />
     <primaryKey>
       <prop name="PersonId"/>
     </primaryKey>
   </class>
+
+  <class name="Lending" assembly="Lending.BO">
+    <property name="LendingId" type="Guid" />
+    <property name="RequestDate"/>
+    <property name="LoanDate"/>
+    <property name="ReturnDate" />
+    <property name="HomeTown" />
+    <property name="PersonId" />
+    <property name="Person" />
+    <property name="ItemId" />
+    <property name="Item" />
+    <primaryKey>
+      <property name="LendingId" />
+    </primaryKey>
+  </class>
+
+  <class name="Item" assembly="Item.BO">
+    <property name="ItemId" type="Guid"/>
+    <property name="ItemName"/>
+    <property name="Description"/>
+    <property name="Lending" />
+    <primaryKey>
+      <prop name="ItemId"/>
+    </primaryKey>
+  </class>
+
 
   <class name="PersonViewModel" assembly="Person.BO">
     <property name="PersonId" type="Guid" />
@@ -24,5 +51,4 @@
     </primaryKey>
   </class>
 
-
-</classes>
+</classes>-->

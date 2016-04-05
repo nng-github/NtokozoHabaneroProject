@@ -11,10 +11,12 @@ namespace LendingLibrary.Habanero.BO
         {
             var loadClassDefs = new ClassDefCol();
             AllClassesAutoMapper.ClassDefCol = loadClassDefs;
-            var allClassesAutoMapper = new AllClassesAutoMapper(new AssemblyTypeSource(typeof(Person).Assembly));
-            //var allClasses= new AllClassesAutoMapper(new AssemblyTypeSource(typeof(PersonViewModel).Assembly));
-            allClassesAutoMapper.Map();
-            //allClasses.Map();
+            var personClassAutoMapper = new AllClassesAutoMapper(new AssemblyTypeSource(typeof(Person).Assembly));
+            var lendingClassAutoMapper = new AllClassesAutoMapper(new AssemblyTypeSource(typeof(Lending).Assembly));
+            var itemClassAutoMapper = new AllClassesAutoMapper(new AssemblyTypeSource(typeof(Item).Assembly));
+            personClassAutoMapper.Map();
+            lendingClassAutoMapper.Map();
+            itemClassAutoMapper.Map();
             return loadClassDefs;
         }
         public static void LoadClassDefs()

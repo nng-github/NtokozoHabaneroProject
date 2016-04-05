@@ -52,7 +52,7 @@ namespace LendingLibrary.Habanero.DB.Tests
         }
 
         [Test]
-        public void GetAllPeople_GivenThereIsTwoPerson_ShouldReturnOnePerson()
+        public void GetAllPeople_GivenThereIsTwoPerson_ShouldReturnTwoPerson()
         {
             //---------------Set up test pack-------------------
             CreateSavedPerson();
@@ -82,7 +82,7 @@ namespace LendingLibrary.Habanero.DB.Tests
         }
 
         [Test]
-        public void GetPersonBy_GivenPersonId_ShouldPerson()
+        public void GetPersonBy_GivenPersonId_ShouldReturnPerson()
         {
             //---------------Set up test pack-------------------
             var person = CreateSavedPerson();
@@ -129,7 +129,7 @@ namespace LendingLibrary.Habanero.DB.Tests
             var repository = CreatePersonRepository();
             //---------------Assert Precondition----------------
             //---------------Execute Test ----------------------
-            repository.Update(person, person.PersonId);
+            //repository.Update(person, person.PersonId);
             //---------------Test Result -----------------------
             var personFromRepo = repository.GetPersonBy(person.PersonId);
             Assert.IsNotNull(personFromRepo);
@@ -155,7 +155,9 @@ namespace LendingLibrary.Habanero.DB.Tests
 
         private static Person CreateSavedPerson()
         {
-            return new PersonBuilder().WithRandomId().BuildSaved();
+            return new PersonBuilder()
+                .WithRandomId()
+                .BuildSaved();
         }
 
         private static PersonBuilder CreatePersonBuilder()

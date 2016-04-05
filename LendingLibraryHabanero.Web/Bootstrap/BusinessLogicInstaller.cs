@@ -11,6 +11,8 @@ namespace LendingLibrary.Habanero.Web.Bootstrap
         public void Install(IWindsorContainer container, IConfigurationStore store)
         {
             container.Register(Component.For<IPersonRepository>().ImplementedBy<PersonRepository>());
+            container.Register(Component.For<ILendingsRepository>().ImplementedBy<LendingsRepository>());
+            container.Register(Component.For<IItemRepository>().ImplementedBy<ItemRepository>());
         }
     }
 }

@@ -42,6 +42,9 @@ namespace LendingLibrary.Habanero.Web.Tests.Controllers
         [Test]
         public void Constructor_GivenIPersonRepositoryIsNull_ShouldThrow()
         {
+            //---------------Set up test pack-------------------
+            //---------------Assert Precondition----------------
+            //---------------Execute Test ----------------------
             var ex = Assert.Throws<ArgumentNullException>(() => new PersonController(null, Substitute.For<IMappingEngine>()));
             //---------------Test Result -----------------------
             Assert.AreEqual("personRepository", ex.ParamName);
@@ -50,6 +53,9 @@ namespace LendingLibrary.Habanero.Web.Tests.Controllers
         [Test]
         public void Constructor_GivenIMappingEngineIsNull_ShouldThrow()
         {
+            //---------------Set up test pack-------------------
+            //---------------Assert Precondition----------------
+            //---------------Execute Test ----------------------
             var ex = Assert.Throws<ArgumentNullException>(() => new PersonController(Substitute.For<IPersonRepository>(), null));
             //---------------Test Result -----------------------
             Assert.AreEqual("mappingEngine", ex.ParamName);
@@ -152,11 +158,6 @@ namespace LendingLibrary.Habanero.Web.Tests.Controllers
             var results = personController.Create(viewModel);
             //---------------Test Result -----------------------
             mappingEngine.Received().Map<PersonViewModel, Person>(viewModel);
-        }
-
-        private static PersonViewModel CreatePersonViewModel()
-        {
-            return new PersonViewModelBuilder().WithRandomProps().Build();
         }
 
         [Test]
@@ -338,7 +339,7 @@ namespace LendingLibrary.Habanero.Web.Tests.Controllers
             //---------------Test Result -----------------------
             personRepository.Received().GetPersonBy(personId);
         }
-        
+
         [Test]
         public void Delete_GivenValidPerson_ShouldCallDeleteFromRepo()
         {
@@ -407,6 +408,11 @@ namespace LendingLibrary.Habanero.Web.Tests.Controllers
             });
 
             return Mapper.Engine;
+        }
+
+        private static PersonViewModel CreatePersonViewModel()
+        {
+            return new PersonViewModelBuilder().WithRandomProps().Build();
         }
     }
 }

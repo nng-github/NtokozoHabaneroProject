@@ -116,6 +116,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builders\ItemBuilder.cs" />
+    <Compile Include="Builders\LendingBuilder.cs" />
     <Compile Include="Builders\PersonBuilder.cs" />
     <Compile Include="Builders\PersonControllerBuilder.cs" />
     <Compile Include="Builders\PersonViewModelBuilder.cs" />

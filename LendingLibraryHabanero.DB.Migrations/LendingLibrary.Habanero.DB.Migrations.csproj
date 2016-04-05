@@ -66,8 +66,8 @@
     <Compile Include="DatabaseMigrator.cs" />
     <Compile Include="MigrationRunner.cs" />
     <Compile Include="Migrations\201604040915_CreateTable_Person.cs" />
-    <Compile Include="Migrations\201604040945_CreateTable_Lendings.cs" />
-    <Compile Include="Migrations\2016041657_CreateTable_Item.cs" />
+    <Compile Include="Migrations\201604051448_CreateTable_Lending.cs" />
+    <Compile Include="Migrations\201604051447_CreateTable_Item.cs" />
     <Compile Include="Migrator.cs" />
     <Compile Include="NtokozoVersionUpgrader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

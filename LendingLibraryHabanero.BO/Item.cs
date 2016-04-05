@@ -28,9 +28,9 @@ namespace LendingLibrary.Habanero.BO
 
 
         [AutoMapOneToMany(RelationshipType.Association, ReverseRelationshipName = "Item")]
-        public virtual Lending Lending
+        public virtual BusinessObjectCollection<Lending> Lendings
         {
-            get { return Relationships.GetRelatedObject<Lending>("Lending"); }
+            get { return Relationships.GetRelatedCollection<Lending>("Lending"); }
         }
     }
 }

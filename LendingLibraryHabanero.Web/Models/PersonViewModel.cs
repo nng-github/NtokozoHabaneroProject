@@ -23,12 +23,10 @@ namespace LendingLibrary.Habanero.Web.Models
         [Display(Name = "Last Name")]
         public string LastName { get; set; }
         [Required]
-        [Display(Name = "Hometown")]
+        [Display(Name = "Home Town")]
         public string HomeTown { get; set; }
-        [Required]
         [Display(Name = "DOB")]
         public DateTime? DateOfBirth { get; set; }
-        [Required]
         [Display(Name = "Education")]
         public string Education { get; set; }
     }
